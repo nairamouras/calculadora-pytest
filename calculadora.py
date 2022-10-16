@@ -15,11 +15,11 @@ def divisao(numero1, numero2):
         return numero1/numero2
     
 def calculadora():
-    numero1 = input("Digite o primeiro número da operação: ")
+    numero1 = int(input("Digite o primeiro número da operação: "))
     print("#"*40)
-    numero2 = input("Digite o segundo número da operação: ")
+    numero2 = int(input("Digite o segundo número da operação: "))
     print("#"*40)
-    operacao = int(input("Agora escolha a operação desejada: 1 - Soma; 2 - Subtração; 3 - Multiplicação; 4 - Dvisão "))
+    operacao = int(input("Agora escolha a operação desejada: 1 - Soma; 2 - Subtração; 3 - Multiplicação; 4 - Dvisão \n"))
     print("#"*80)
     if operacao == 1:
         print("A soma dos números é igual a", soma(numero1, numero2))
@@ -32,4 +32,5 @@ def calculadora():
     else:
         print("Opção inválida.")
         exit()
+
 calculadora()
