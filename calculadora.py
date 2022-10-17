@@ -1,5 +1,5 @@
 class Calculadora():
-
+    
     def soma(numero1, numero2):
         return numero1+numero2
 
@@ -12,7 +12,7 @@ class Calculadora():
     def divisao(numero1, numero2):
         if(numero2 == 0):
             print("Não existe divisão por zero.")
-            exit()
+            return None
         else:
             return numero1/numero2
         
