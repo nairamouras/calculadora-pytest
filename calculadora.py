@@ -5,7 +5,7 @@ class Calculadora():
         print("#"*40)
         numero2 = int(input("Digite o segundo número da operação: "))
         print("#"*40)
-        operacao = int(input("Agora escolha a operação desejada: 1 - Soma; 2 - Subtração; 3 - Multiplicação; 4 - Dvisão \n"))
+        operacao = int(input("Agora escolha a operação desejada: 1 - Soma; 2 - Subtração; 3 - Multiplicação; 4 - Divisão \n"))
         print("#"*90)
         if operacao == 1:
             print("A soma dos números é igual a", self.soma(numero1, numero2))
